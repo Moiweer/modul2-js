@@ -64,3 +64,54 @@
 
 // 4
 
+// 5
+
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[3];
+
+// console.log(firstElement);
+// console.log(secondElement);
+// console.log(lastElement);
+
+// 6
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// fruits[1] = "peach";
+// fruits[3] = "banana";
+
+
+// 7
+
+// const fruits = ["apple", "peach", "pear", "banana"];
+
+// const fruitsArrayLength = fruits.length
+
+// 8
+
+
+// const fruits = ["apple", "peach", "pear", "banana"];
+
+// const lastElementIndex = fruits.length -1;
+// const lastElement = fruits[lastElementIndex];
+
+
+// console.log(lastElementIndex);
+// console.log(lastElement[lastElementIndex]);
+
+
+// 9
+
+function getExtremeElements(array) {
+var array = [];
+const firstElement = array[0];
+const lastElement = array.langth -1;
+return getExtremeElements[firstElement, lastElement];
+
+ 
+}
+console.log(getExtremeElements[firstElement, lastElement]);
