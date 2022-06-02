@@ -106,12 +106,12 @@
 
 // 9
 
-function getExtremeElements(array) {
-var array = [];
-const firstElement = array[0];
-const lastElement = array.langth -1;
-return getExtremeElements[firstElement, lastElement];
+// function getExtremeElements(array) {
+// var array = [];
+// const firstElement = array[0];
+// const lastElement = array.langth -1;
+// return getExtremeElements[firstElement, lastElement];
 
  
-}
-console.log(getExtremeElements[firstElement, lastElement]);
+// }
+// console.log(getExtremeElements[firstElement, lastElement]);
