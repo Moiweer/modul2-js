@@ -107,11 +107,24 @@
 // 9
 
 // function getExtremeElements(array) {
-// var array = [];
-// const firstElement = array[0];
-// const lastElement = array.langth -1;
-// return getExtremeElements[firstElement, lastElement];
-
  
+
+//     return [array[0], array[array.length - 1]];
+
+//   // Change code above this line
 // }
-// console.log(getExtremeElements[firstElement, lastElement]);
+// console.log(getExtremeElements([1, 2, 3, 4, 5]));
+// console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
+// console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));
+
+
+// 10
+
+function splitMessage(message, delimeter) {
+let words;
+    words = message.split(delimeter);
+  return words;
+}
+console.log(splitMessage("Mango hurries to the train"));
+console.log(splitMessage("Mango", ""));
+console.log(splitMessage("best_for_week", "_"));
