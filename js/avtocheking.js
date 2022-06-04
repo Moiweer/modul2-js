@@ -120,11 +120,56 @@
 
 // 10
 
-function splitMessage(message, delimeter) {
-let words;
-    words = message.split(delimeter);
-  return words;
-}
-console.log(splitMessage("Mango hurries to the train"));
-console.log(splitMessage("Mango", ""));
-console.log(splitMessage("best_for_week", "_"));
+// function splitMessage(message, delimeter) {
+// let words;
+//     words = message.split(delimeter);
+//   return words;
+// }
+// console.log(splitMessage("Mango hurries to the train"));
+// console.log(splitMessage("Mango", ""));
+// console.log(splitMessage("best_for_week", "_"));
+
+
+// // 11
+// function calculateEngravingPrice(message, pricePerWord) {
+//     let array = message.split(" ");
+//     return array.length * pricePerWord;
+    
+// }
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 10));
+
+// // 12
+
+// function makeStringFromArray(array, delimeter) {
+//   let string;
+//    string = array.join(delimeter);
+//   return string;
+
+
+// }
+// function slugify(title) {
+//   // Change code below this line
+//     const slug = title.toLowerCase().split(" ").join("-");
+
+
+//     return slug;
+ 
+// }
+// console.log(slugify("Arrays for begginers"));
+
+// 14
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0,2);
+// const nonExtremeEls = fruits.slice(1,4);
+// const lastThreeEls = fruits.slice(-3);
+
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);
+
+
+// 15
+

@@ -3,26 +3,26 @@
 
 
 
-function multiply() {
-  let total = 1;
+// function multiply() {
+//   let total = 1;
 
-  for (const argument of arguments) {
-    total *= argument;
-  }
+//   for (const argument of arguments) {
+//     total *= argument;
+//   }
 
-  return total;
-}
+//   return total;
+// }
 
-console.log(multiply(1, 2, 3)); //  6
-console.log(multiply(1, 2, 3, 4)); //  24
-console.log(multiply(1, 2, 3, 4, 5)); //  120
-
-
-
-// Используя операцию ... (rest)
+// console.log(multiply(1, 2, 3)); //  6
+// console.log(multiply(1, 2, 3, 4)); //  24
+// console.log(multiply(1, 2, 3, 4, 5)); //  120
 
 
-function fn(...args) {
-  // В переменной args будет полноценный массив
-  const args = Array.from(arguments);
-}
+
+// // Используя операцию ... (rest)
+
+
+// function fn(...args) {
+//   // В переменной args будет полноценный массив
+//   const args = Array.from(arguments);
+// }
