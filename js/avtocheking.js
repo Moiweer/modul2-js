@@ -171,5 +171,47 @@
 // console.log(lastThreeEls);
 
 
-// 15
+// 16
 
+// function makeArray(firstArray, secondArray, maxLength) {
+//     let newArray = [];
+//     newArray = firstArray.concat(secondArray);
+//     if(newArray.length >= maxLength) {
+//         return newArray.slice(0, maxLength);
+//         return newArray;
+//     }
+
+// }
+//  console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4));
+
+
+
+
+// 17
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) { 
+
+//   console.log(i);
+// }
+
+
+18//
+
+
+function calculateTotal(...number) {
+    // let figure = number;
+    console.log(number);
+    let array = [];
+    let total;
+    array.length = number;
+    for (let i = 0; i <= array.length; i += 1) {
+       total = i += number;
+        return total;
+        
+ }
+}
+console.log(calculateTotal(7));
