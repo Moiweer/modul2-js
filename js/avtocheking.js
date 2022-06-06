@@ -202,16 +202,71 @@
 18//
 
 
-function calculateTotal(...number) {
-    // let figure = number;
-    console.log(number);
-    let array = [];
-    let total;
-    array.length = number;
-    for (let i = 0; i <= array.length; i += 1) {
-       total = i += number;
-        return total;
-        
- }
-}
-console.log(calculateTotal(7));
+// function calculateTotal(number) {
+   
+  
+//     let sum = 0;
+    
+//     for (let i = 0; i <= number; i += 1) {
+//         sum += i;
+
+
+//     }
+    
+//        return sum;  
+// }
+// console.log(calculateTotal(1));
+// console.log(calculateTotal(3));
+
+
+
+// 19
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+// for (let i = 0; i < fruits.length; i += 1) {
+//     const fruit = fruits[i];
+//     console.log(fruit);
+// }
+
+// 20
+// function calculateTotalPrice(order) {
+  
+//     let total = 0;
+  
+    
+// for (const orders of order) {
+//         total += orders;
+
+
+//     }
+       
+//   return total;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+
+
+// (let i = 0; i <= order.length; i += 1)
+
+// 21
+
+
+
+// function findLongestWord(string) {
+  
+//     const array = string.split(" ");
+//     let longestword = array[0];
+
+//     for (let i = 0; i < array.length; i += 1) {
+//         if (longestword.length < array[i].length) {
+//             longestword = array[i];
+//         } 
+//     }
+//     return longestword;
+    
+//     } 
+
+// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+// console.log(findLongestWord("Google do a roll"));
+// console.log(findLongestWord("May the force be with you"));
+// console.log(findLongestWord());
