@@ -270,3 +270,31 @@
 // console.log(findLongestWord("Google do a roll"));
 // console.log(findLongestWord("May the force be with you"));
 // console.log(findLongestWord());
+
+
+
+// 22
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//     for (let i = min; i <= max;  i +=1){
+//         numbers.push(i);
+//     }
+//   return numbers;
+// }
+// console.log(createArrayOfNumbers(1, 3));
+// console.log(createArrayOfNumbers(14, 17));
+// console.log(createArrayOfNumbers(29, 34));
+// console.log(createArrayOfNumbers());
+
+// 
+
+function filterArray(numbers, value) {
+    const numbers = [];
+    
+    for (let i = numbers[0]; i <= value;  i +=1){
+        numbers.push(i);
+    }
+  return numbers;
+}
+console.log(filterArray([1, 2, 3, 4, 5], 3));
