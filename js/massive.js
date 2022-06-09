@@ -256,3 +256,43 @@
 
 // console.log(oldClients); // ["Mango", "Ajax", "Poly", "Kiwi"]
 // console.log(newClients); // ["Monkong", "Singu"]
+
+
+
+
+
+// 32  - найти входит ли в массив какое-то значение(value)
+
+// function includes(array, value) {
+//     //  const array = [];
+//     for (let i = 0; i <= array.length; i += 1) {
+//         if (array[i] === value) {
+//             return true;
+//         }
+//     }
+//            return false;
+        
+//     }
+
+// то же самое, но с includes:
+
+
+
+// function includes(array, value) {
+//     const message = array.includes(value)
+//     ? true : false
+    
+//            return message;
+        
+// }
+// console.log(includes([1, 7, 9, 3], 10));
+
+
+// Третий вариант:
+
+// function foundIncludes(array, value) {
+//     return array.includes(value)
+//         ? true : false;      
+        
+// }
+// console.log(foundIncludes([1, 7, 9, 3], 1));

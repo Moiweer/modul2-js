@@ -374,3 +374,98 @@
 
 // 28
 
+// // Change code below this line
+// const a = 3 % 1;
+// const b = 4 % 3;
+// const c = 11 % 8;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
+// 29
+
+// function getEvenNumbers(start, end) {
+//     const array = [];
+//     // array[0] = start;
+//     // array.length = end;
+//     for (let i = start; i <= end; i += 1) {
+//         if (i % 2 === 0) {
+//             array.push(i);
+//         }
+//     }
+//             return array;
+//         }
+    
+
+
+// console.log(getEvenNumbers(2, 5));
+
+// 30
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+ 
+// }
+
+
+
+// 31
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+//   let number;
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       number = i;
+//         return number;
+//     }
+//   }
+
+ 
+//   // Change code above this line
+// }
+// console.log(findNumber(2, 6, 5));
+// console.log(findNumber(8, 17, 3));
+
+
+
+// 32  - найти входит ли в массив какое-то значение(value)
+
+// function includes(array, value) {
+//     //  const array = [];
+//     for (let i = 0; i <= array.length; i += 1) {
+//         if (array[i] === value) {
+//             return true;
+//         }
+//     }
+//            return false;
+        
+//     }
+
+// то же самое, но с includes:
+
+
+
+// function includes(array, value) {
+//     const message = array.includes(value)
+//     ? true : false
+    
+//            return message;
+        
+// }
+// console.log(includes([1, 7, 9, 3], 10));
+
+
+// Третий вариант:
+
+// function foundIncludes(array, value) {
+//     return array.includes(value)
+//         ? true : false;      
+        
+// }
+// console.log(foundIncludes([1, 7, 9, 3], 1));
